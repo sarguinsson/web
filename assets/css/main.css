@@ -210,6 +210,7 @@ body.is-preload *:after {
 input,
 textarea,
 select {
+  border-radius: 0.5em;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18pt;
   line-height: 1.75em;
@@ -2757,4 +2758,8 @@ body.is-preload #header footer {
 
 .centered {
   align-items: center;
+}
+
+article {
+  border-radius: 0.5em;
 }
