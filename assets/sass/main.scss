@@ -565,12 +565,17 @@ form {
     -webkit-appearance: none;
     display: block;
     border: 0;
-    background: #f1f1f1;
+    // background: #f1f1f1;
+    background: rgba(53, 184, 143, 0.5);
     width: 100%;
     padding: 0.75em;
+    border: 0.5px solid #5a5959;
 
     &:focus {
-      background-color: #f8f8f8;
+      // background-color: #f8f8f8;
+      //   background: #35b88f;
+      background: #45c89f;
+      outline: 0;
     }
   }
 
@@ -700,6 +705,7 @@ button,
   text-align: center;
   border-radius: 3em;
   font-weight: 400;
+  border: 0.5px solid #5a5959;
 
   &:hover {
     background: #45c89f;
