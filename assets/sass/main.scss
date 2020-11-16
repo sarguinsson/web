@@ -701,11 +701,15 @@ button,
   cursor: pointer;
   text-decoration: none;
   outline: 0;
-  padding: 1em 3em 1em 3em;
+  //   padding: 1em 3em 1em 3em;
+  padding: 0.9em 2em;
+  //   font-size: 16pt;
+
   text-align: center;
-  border-radius: 3em;
+  border-radius: 0.5em;
   font-weight: 400;
   border: 0.5px solid #5a5959;
+  line-height: 1em;
 
   &:hover {
     background: #45c89f;
