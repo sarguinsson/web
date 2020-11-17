@@ -176,7 +176,7 @@ body {
   background-position: top left, center 0;
   background-attachment: fixed, fixed;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18pt;
+  font-size: 14pt;
   line-height: 1.75em;
   font-weight: 300;
   letter-spacing: 1px;
@@ -1566,6 +1566,10 @@ button.style3:hover,
   background: rgba(58, 57, 57, 0.025);
 }
 
+#header {
+  min-height: 100vh !important;
+}
+
 /* Box */
 .box {
   position: relative;
@@ -2009,10 +2013,8 @@ body.is-preload #header footer {
 input,
 textarea,
 select {
-    font-size: 16pt;
+    font-size: 14pt;
   }
-
-  /* Header */
 }
 /* Normal */
 @media screen and (max-width: 1080px) {
@@ -2027,10 +2029,6 @@ select {
 /* Narrow */
 @media screen and (max-width: 840px) {
   /* Basic */
-  #header {
-    min-height: 100vh;
-  }
-
   body {
     background-color: #203936;
     background-repeat: repeat, no-repeat;
