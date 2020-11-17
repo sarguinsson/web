@@ -218,7 +218,7 @@ body {
   background-position: top left, center 0;
   background-attachment: fixed, fixed;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18pt;
+  font-size: 14pt;
   line-height: 1.75em;
   font-weight: 300;
   letter-spacing: 1px;
@@ -744,6 +744,11 @@ button,
   }
 }
 
+#header {
+  // padding: 10em 0 12em 0;
+  min-height: 100vh !important;
+}
+
 /* Box */
 
 .box {
@@ -1238,13 +1243,7 @@ button,
   input,
   textarea,
   select {
-    font-size: 16pt;
-  }
-
-  /* Header */
-
-  #header {
-    // padding: 10em 0 12em 0;
+    font-size: 14pt;
   }
 }
 
@@ -1269,10 +1268,6 @@ button,
 
 @include breakpoint('<=narrow') {
   /* Basic */
-
-  #header {
-    min-height: 100vh;
-  }
 
   body {
     background-color: #203936;
