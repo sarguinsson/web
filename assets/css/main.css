@@ -1808,7 +1808,7 @@ body.is-preload #header footer {
 }
 
 /* Banner */
-#banner {
+.banner {
   position: relative;
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
@@ -1818,33 +1818,32 @@ body.is-preload #header footer {
   margin: 0;
   background-size: 125% auto;
 }
-#banner section {
+.banner section {
   color: #3a3939;
 }
-#banner .button {
+.banner .button {
   color: #35b882;
   text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 }
-#banner header {
+.banner header {
   margin: 0 0 2em 0;
 }
-#banner header h2 {
+.banner header h2 {
   font-weight: 400;
   font-size: 1.75em;
   letter-spacing: 8px;
 }
-#banner p {
+.banner p {
   margin: 0;
 }
-#banner footer {
+.banner footer {
   margin: 2em 0 0 0;
 }
-#banner a {
+.banner a {
   color: inherit;
-  border-bottom-color: rgba(255, 255, 255, 0.5);
 }
-#banner a:hover {
-  border-bottom-color: rgba(255, 255, 255, 0);
+.banner a:hover {
+  border: 0.5px solid transparent;
 }
 
 /* Footer */
@@ -2019,7 +2018,7 @@ select {
 /* Normal */
 @media screen and (max-width: 1080px) {
   /* Banner */
-  #banner {
+  .banner {
     padding: 4em 0 4em 0;
     background-size: auto, 175% auto;
   }
@@ -2089,11 +2088,11 @@ h6 {
 
   /* Header */
   /* Banner */
-  #banner {
+  .banner {
     padding: 3.5em;
     background-size: 200% auto;
   }
-  #banner br {
+  .banner br {
     display: none;
   }
 }
@@ -2258,14 +2257,14 @@ button,
   }
 
   /* Banner */
-  #banner {
+  .banner {
     padding: 3em 2em 3em 2em;
     background-size: auto 150%;
   }
-  #banner header {
+  .banner header {
     margin: 0 0 1em 0;
   }
-  #banner header h2 {
+  .banner header h2 {
     font-size: 1.5em;
     letter-spacing: 6px;
   }

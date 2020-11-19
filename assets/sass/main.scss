@@ -1019,7 +1019,7 @@ button,
 
 /* Banner */
 
-#banner {
+.banner {
   position: relative;
   color: $font-color-inv;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
@@ -1058,10 +1058,11 @@ button,
 
   a {
     color: inherit;
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    // border-bottom-color: rgba(255, 255, 255, 0.5);
 
     &:hover {
-      border-bottom-color: rgba(255, 255, 255, 0);
+      border: 0.5px solid transparent;
+      //   border-bottom-color: rgba(255, 255, 255, 0);
     }
   }
 }
@@ -1252,7 +1253,7 @@ button,
 @include breakpoint('<=normal') {
   /* Banner */
 
-  #banner {
+  .banner {
     padding: 4em 0 4em 0;
     background-size: auto, 175% auto;
   }
@@ -1353,7 +1354,7 @@ button,
 
   /* Banner */
 
-  #banner {
+  .banner {
     padding: 3.5em;
     background-size: 200% auto;
 
@@ -1566,7 +1567,7 @@ button,
   }
 
   /* Banner */
-  #banner {
+  .banner {
     padding: 3em 2em 3em 2em;
     background-size: auto 150%;
 
