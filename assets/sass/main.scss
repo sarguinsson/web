@@ -940,7 +940,8 @@ button,
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
   margin: 0;
-  padding: 14em 0 14em 0;
+  //   padding: 14em 0 14em 0;
+  padding: 15vh 0;
   cursor: default;
 
   header {
@@ -1276,7 +1277,7 @@ button,
     background-repeat: repeat, no-repeat;
     // background-size: auto, 100% auto;
     background-position: top left, top center;
-    background-attachment: scroll, scroll;
+    // background-attachment: scroll, scroll;
     font-size: 14pt;
   }
 
